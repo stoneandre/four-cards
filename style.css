@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+section {
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
+    padding: 80px 0;
+    /* padding: 80px 0 80px 0; */
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.cards {
+    display: flex;
+    margin: 0 auto;
+    width: 1110px;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+    margin-bottom: 16px;
+}
+
+.top>p {
+    width: 540px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: #4D4F62;
+    opacity: 0.5;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* m0-a */
+    margin: 0 auto;
+}
+
+article {
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    padding: 32px;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: #000;
+}
+
+h4 {
+    margin-bottom: 6px;
+}
+
+article>p {
+    margin-bottom: 40px;
+}
+article>img{
+    /* margin-left: auto;
+    display: block; */
+    position: relative;
+    right: -100%;
+    transform: translateX(-100%);
+}
+.cards>article {
+    /* margin: auto 0; */
+    align-self: center;
+}
+
+/* column-gap: 30px; */
+.cyan{
+    border-top: 4px solid #44D3D2;
+}
+.red{
+    border-top: 4px solid #EA5454;
+}
+.yellow{
+    border-top: 4px solid #FCAE4A;
+}
+.blue{
+    border-top: 4px solid #549EF2;
+}
